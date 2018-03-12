@@ -1,3 +1,5 @@
-// import $ from 'jquery';
+//  import $ from 'jquery';
 
-$('.cell').append('Hello from JQuery !!!');
+$('.carousel').carousel({
+  interval: 10000
+})

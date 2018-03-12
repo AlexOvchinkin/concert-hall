@@ -12,7 +12,7 @@ const browserSync = require('browser-sync').create();
 const devMode = true;
 
 gulp.task('build:scss', function () {
-  return gulp.src('./scss/*')
+  return gulp.src('./scss/config.scss')
     //.pipe(gulpIf(devMode, sourcemaps.init()))
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],

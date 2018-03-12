@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0) !important;
+
+  .navbar-brand {
+    font-size: 200%;
+    letter-spacing: .25rem;
+  }
+
+  .nav-item {
+    letter-spacing: .125rem;
+  }
+}
+
+.carousel-slide {
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.carousel-slide--1 {
+  background-image: url('assets/carousel-img-1-big.jpg');
+}
+
+.carousel-slide--2 {
+  background-image: url('assets/carousel-img-2-big.jpg');
+}
+
+.carousel-slide--3 {
+  background-image: url('assets/carousel-img-3-big.jpg');
+}
+
+.carousel-indicators {
+  li {
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+.carousel-inner {
+  .carousel-caption {
+    left: 0;
+    top: 4rem;
+  }
+
+  p {
+    font-size: 2rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 3rem; 
+    }
+  }
+}
+
+
+ 
